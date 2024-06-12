@@ -1,0 +1,22 @@
+/* Estilos de las secciones */
+@import url();
+
+/* Paleta de colores */
+:root{
+  --primary-red: #d90429;
+  --secondary-red: #ef233c;
+  --text-white: #edf2f4;
+  --secondary-gray: #8d99ae;
+  --primary-gray: #2b2d42;
+  --dark-gray: #1b1e30;
+}
+/* Tamaño de textos en rem */
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-family: "Kode Mono", monospace;
+}
+
+/* font-family: "Kode Mono", monospace; */

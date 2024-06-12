@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alura Geek</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1 class="navbar__title">🕹️AluraGeek🎮</h1>
+    </nav>
+  </header>
+  <main>
+    <section class="add-product">
+      <h2 class="add-product__title">Agregar Producto</h2>
+      <form class="add-product__form" action="">
+        <fieldset class="form-input">
+          <input class="form-input__name" name="name" id="name" type="text" minlength="5" maxlength="20" placeholder="Nombre del producto" required>
+          <span class="form-input__error"></span>
+        </fieldset>
+        <fieldset>
+          <input class="form-input__price" name="price" id="price" type="number" placeholder="Precio del producto">
+          <span class="form-input__error"></span>
+        </fieldset>
+        <fieldset>
+          <input class="form-input__img" name="img" id="img" type="text" placeholder="url de la imagen del producto">
+          <span class="form-input__error"></span>
+        </fieldset>
+        <div class="form-buttons">
+          <input class="button__send" type="submit" value="Guardar">
+          <input class="button__clear" type="submit" value="Limpiar">
+        </div>
+      </form>
+    </section>
+    <section class="products">
+      <h2 class="products__title">Mis productos</h2>
+      <ul class="products__list">
+        <li class="product__card">
+          <img class="product__img" src="" alt="">
+          <h3 class="product__name">Gameboy classic</h3>
+          <div class="product__description">
+            <p class="product__price">$ 60,00</p>
+            <img class="product__delete" src="" alt="">
+          </div>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer-info">
+      <h4 class="footer__title">Desarrollado por Carlos Miguel</h4>
+      <p class="footer__year">2024</p>
+    </div>
+    <ul class="footer-network">
+      <li class="footer-network__item">
+        <a href="https://github.com/Micky-CM"><img class="footer-network__item__icon" src="assets/icons/github.png" alt="Github"></a>
+      </li>
+      <li class="footer-network__item">
+        <a href="https://www.linkedin.com/in/miguel-colque/"><img class="footer-network__item__icon" src="assets/icons/linkedin.png" alt="Linkedin"></a>
+      </li>
+      <li class="footer-network__item">
+        <a href="https://x.com/micky_shark"><img class="footer-network__item__icon" src="assets/icons/x-media.png" alt="X"></a>
+      </li>
+      <li class="footer-network__item">
+        <a href="#"><img class="footer-network__item__icon" src="assets/icons/instagram.png" alt="Instagram"></a>
+      </li>
+    </ul>
+  </footer>
+</body>
+</html>
