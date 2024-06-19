@@ -1,0 +1,67 @@
+.products{
+  background: var(--background);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 2rem 4rem;
+}
+.products__title{
+  font-size: 3.2rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+.products__list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem;
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+.products__btn-add{
+  width: 16rem;
+  height: 3.4rem;
+  background: var(--soft-blue);
+  color: var(--text-white);
+  font-size: 1.4rem;
+  font-weight: 500;
+  border-radius: 0.8rem;
+}
+
+/* Tarjetas de prducto */
+.product__card{
+  display: flex;
+  flex-direction: column;
+  width: 24rem;
+  height: auto;
+  background: var(--secondary-purple);
+  color: var(--text-white);
+  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.8) 0 0.5rem 0.8rem;
+  padding: 2rem;
+}
+.product__img{
+  align-self: center;
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+.product__name{
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+.product__description{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.product__description__price{
+  font-size: 2rem;
+  font-weight: 800;
+}
+.product__description__delete{
+  width: 2rem;
+  height: 2rem;
+}

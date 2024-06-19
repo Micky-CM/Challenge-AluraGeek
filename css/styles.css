@@ -1,14 +1,19 @@
 /* Estilos de las secciones */
-@import url();
+@import url(navbar.css);
+@import url(addProduct.css);
+@import url(products.css);
+@import url(footer.css);
 
 /* Paleta de colores */
 :root{
-  --primary-red: #d90429;
-  --secondary-red: #ef233c;
-  --text-white: #edf2f4;
-  --secondary-gray: #8d99ae;
-  --primary-gray: #2b2d42;
-  --dark-gray: #1b1e30;
+  --primary-purple: #460f86;
+  --secondary-purple: #7300de;
+  --background:#9669ff;
+  --hot-pink: #ff21c4;
+  --soft-blue: #47b3ff;
+  --text-white: #fafafe;
+  --text-black: #130D20;
+  /*alternativa #F7F7FD*/
 }
 /* Tamaño de textos en rem */
 html{

@@ -1,0 +1,90 @@
+/* Sección del formulario para agregar producto */
+.modal{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.7);
+  padding-top: 6rem;
+  border-radius: 1rem;
+}
+.modal-content{
+  width: 80%;
+  margin: 5% auto;
+  border-radius: 1rem;
+}
+.close{
+  float: right;
+  color: var(--primary-purple);
+  font-size: 4rem;
+  font-weight: bold;
+  margin-right: 2rem;
+}
+
+.close:hover, .close:focus{
+  color: var(--soft-blue);
+  text-decoration: none;
+  cursor: pointer;
+}
+.add-product{
+  background: var(--background);
+  color: var(--text-black);
+  padding: 5rem 3rem;
+}
+.add-product__title{
+  font-size: 2.6rem;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.product-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+.product-form__input{
+  width: 90%;
+  height: 3rem;
+  border-radius: 0.8rem;
+  font-size: 1.6rem;
+  text-align: center;
+}
+.product-form__file{
+  width: auto;
+  height: auto;
+  background: var(--secondary-purple);
+  color: var(--text-white);
+  border-radius: 0.8rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-align: center;
+  padding: 1rem;
+
+}
+.input-addFile{
+  display: none;
+}
+.form-buttons{
+  display: flex;
+  gap: 2rem;
+}
+.button__save, .button__clear{
+  width: 10rem;
+  height: 3.4rem;
+  border-radius: 0.8rem;
+  color: var(--text-white);
+  border: 0.2rem solid var(--text-white);
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+.button__save{
+  background: var(--soft-blue);
+}
+.button__clear{
+  background: none;
+}

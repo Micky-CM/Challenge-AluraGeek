@@ -1,0 +1,19 @@
+/* Sección del navbar */
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 7rem;
+  background: var(--primary-purple);
+}
+.navbar__title{
+  font-size: 3rem;
+  font-weight: 900;
+  color: var(--text-white);
+}
+
+/* Media query para tablet */
+  /* No hace falta realizar modificaciones */
+
+/* Media query para desktop */
