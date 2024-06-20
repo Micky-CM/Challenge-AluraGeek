@@ -42,7 +42,7 @@
 
 
 /* Media query para tablet */
-@media screen and (min-width: 600px){
+@media (width > 601px){
   .footer{
     flex-direction: row;
     align-items: center;
@@ -52,7 +52,7 @@
 }
 
 /* Media query para desktop */
-@media screen and (min-width: 1024px){
+@media (width > 1000px){
   .footer-network__item__icon:hover{
     transform: scale(1.1);
     box-shadow: 0.5rem 0.5rem 0.5rem black;

@@ -10,12 +10,10 @@
   overflow: auto;
   background-color: rgba(0,0,0,0.7);
   padding-top: 6rem;
-  border-radius: 1rem;
 }
 .modal-content{
   width: 80%;
   margin: 5% auto;
-  border-radius: 1rem;
 }
 .close{
   float: right;
@@ -24,20 +22,22 @@
   font-weight: bold;
   margin-right: 2rem;
 }
-
 .close:hover, .close:focus{
   color: var(--soft-blue);
   text-decoration: none;
+  transform: scale(1.3);
   cursor: pointer;
 }
 .add-product{
   background: var(--background);
   color: var(--text-black);
+  border-radius: 1rem;
   padding: 5rem 3rem;
 }
 .add-product__title{
-  font-size: 2.6rem;
-  font-weight: 900;
+  color: var(--text-black);
+  font-size: 2.4rem;
+  font-weight: bolder;
   text-align: center;
   margin-bottom: 2rem;
 }
@@ -64,7 +64,13 @@
   font-weight: 500;
   text-align: center;
   padding: 1rem;
-
+}
+.product-form__file:hover, .product-form__file:focus,
+.button__save:hover, .button__save:focus,
+.button__clear:hover, .button__clear:focus{
+  transform: scale(1.1);
+  box-shadow: 0.5rem 0.5rem 0.5rem var(--primary-purple);
+  cursor: pointer;
 }
 .input-addFile{
   display: none;
@@ -87,4 +93,26 @@
 }
 .button__clear{
   background: none;
+}
+
+
+/* Media query para tablet */
+@media (600px <= width <= 1000px){
+  .modal-content{
+    width: 44rem;
+  }
+  .add-product__title{
+    font-size: 2.6rem;
+  }
+}
+
+
+/* Media query para desktop */
+@media (width > 1000px){
+  .modal-content{
+    width: 50rem;
+  }
+  .add-product__title{
+    font-size: 2.8rem;
+  }
 }
